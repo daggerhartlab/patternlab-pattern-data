@@ -1,6 +1,6 @@
 'use strict';
 
-const pluginName = 'plugin-pattern-data';
+const pluginName = 'patternlab-pattern-data';
 const patternData = require('./src/pattern-data');
 
 // Find data that looks like a pattern, load the pattern data.

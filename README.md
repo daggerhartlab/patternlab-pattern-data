@@ -10,16 +10,12 @@ Add the following section info the `patternlab-config.json` file.
 ```json
 {
   "plugins": {
-	  "plugin-pattern-data": {
+	  "patternlab-pattern-data": {
 		  "enabled": true
 	  }
   }
 }
 ```
-
-Ensure the plugin is available to NPM.
-
-`npm link source/_plugins/plugin-pattern-data`
 
 ## Usage
 
