@@ -15,9 +15,9 @@ function getReferencedPattern(referencedPatternPath, patternlab) {
 	for (let k in patternlab.patterns) {
 		let pattern = patternlab.patterns[k];
 		if (pattern.verbosePartial === referencedPatternPath) {
-			return patternlab.patterns[k];
+			return pattern;
 		}
-		if (pattern.relPath.replace(pattern.engine.engineFileExtension, '') === referencedPatternPath) {
+		if (pattern.relPath.replace(/(.yml|.yaml|.json|.twig)$/, '') === referencedPatternPath) {
 			return pattern;
 		}
 		if (pattern.patternPartial === referencedPatternPath) {
