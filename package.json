@@ -1,4 +1,21 @@
 {
 	"name": "patternlab-pattern-data",
-	"main": "index.js"
+	"description": "Reuse patternlab pattern data by reference within other components/patterns.",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daggerhartlab/patternlab-pattern-data"
+	},
+	"keywords": [
+		"patternlab"
+	],
+	"author": "Daggerhart Lab <hello@daggerhart.com> (https://www.daggerhartlab.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/daggerhartlab/patternlab-pattern-data/issues"
+	}
 }
